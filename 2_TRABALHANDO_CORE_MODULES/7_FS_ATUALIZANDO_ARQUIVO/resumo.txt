@@ -1,0 +1,5 @@
+o writeFile substitui tudo que esta no arquivo
+
+para atualizar utilizamos o appendFile
+
+que tem a mesma utilização que o write, porem nos permite unir conteudos

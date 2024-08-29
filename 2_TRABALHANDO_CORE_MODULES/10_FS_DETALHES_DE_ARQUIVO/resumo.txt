@@ -1,0 +1,5 @@
+podemos saber mais sobre os arquivos que temos acesso
+
+utilizamos o método stat de fs
+
+com ele temos informações de: tamanho, data de criação, se é arquivo ou diretório e etc

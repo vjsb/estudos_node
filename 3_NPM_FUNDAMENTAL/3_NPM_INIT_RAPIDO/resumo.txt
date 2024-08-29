@@ -1,0 +1,3 @@
+com o comando npm init -y ele cria o projeto npm de forma rapida
+
+dando uma resposta de yes para todas as perguntas feitas quando criamos um porjeto pelo npm init apenas

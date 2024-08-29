@@ -1,0 +1,5 @@
+para enviar os dados vamos precisar criar um form e mandar os dados via POST para alguma URL
+
+no express precisamos colocar alguns middlewares como o express.json para ler os dados do body
+
+e tambem uma roda que vai receber estes dados, utilziando o método post do express

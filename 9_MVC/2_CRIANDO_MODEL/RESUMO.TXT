@@ -1,0 +1,7 @@
+CRIANDO O MODEL
+
+vamos criar nosso Model dentro da pasta models
+
+precisamos também sincronizar para criar a tabela, então vamos importar no index.js
+
+este é o primeiro passo do nosso MVC, declarando uma entidade que faz parte da regra de negócios

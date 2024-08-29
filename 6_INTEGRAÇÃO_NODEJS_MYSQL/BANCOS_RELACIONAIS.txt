@@ -1,0 +1,12 @@
+Os Bancos de Dados relacionais são constituidos por algumas entidades:
+
+    Banco de Dados: um banco para guardar os dados do projeto
+
+    Tabelas: onde categorizamos os dados e os inserimos
+
+    Colunas: Onde separamos os dados em uma tabela
+
+    Dados: o que é inserido, modificado, atualizado e removido em uma tabela
+
+    Relacionamentos: ligações entre tabelas
+    

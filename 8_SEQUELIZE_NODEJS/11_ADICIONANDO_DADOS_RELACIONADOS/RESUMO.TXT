@@ -1,0 +1,11 @@
+ADICIONANDO DADOS RELACIONADOS
+
+para adicionar o dado relacionado o fluxo é quase o mesmo
+
+o grande detalhe é que precisamos passar o id do item que o relaciona
+
+podemos fazer com um input do tipo hidden
+
+dentro do form que contém os dados do novo item
+
+e enviado para uma nova rota no nosso sistema

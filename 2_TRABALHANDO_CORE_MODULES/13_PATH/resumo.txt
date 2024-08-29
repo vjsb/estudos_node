@@ -1,0 +1,5 @@
+com o path conseguimos extrair diversas informações sobre caminhos e arquivos
+
+este tambem é um Core Module
+
+algumas infos possiveis são: nome do diretório, nome do arquivo, extensão do arquivo e etc

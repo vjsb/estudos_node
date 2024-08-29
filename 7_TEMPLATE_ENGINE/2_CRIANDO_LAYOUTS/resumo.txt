@@ -1,0 +1,11 @@
+podemos criar layouts para reaproveitar código entre páginas
+
+vamos criar uma pasta chamada layouts em views
+
+e nela criamos o template que será repetido
+
+colocamos uma tag especial {{body}}
+
+para que neste local o 'corpo' do site seja inserido
+
+em todas as nossas views agora o layout é repetido

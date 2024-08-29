@@ -1,0 +1,11 @@
+{
+  "name": "atualizacao_de_pacotes",
+  "version": "1.0.0",
+  "description": "atualizando pacotes no node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joao victor",
+  "license": "ISC"
+}

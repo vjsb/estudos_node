@@ -1,0 +1,7 @@
+UTILIZANDO O WHERE
+
+para filtrar dados com o Sequelize utilizando o WHERE, precisamos inserir um novo parametro
+
+Que sera o where, um objeto onde colocamos as propriedades e valores que queremos filtrar
+
+e para retornar apenas um resultado podemos utilizar o método findOnde

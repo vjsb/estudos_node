@@ -1,0 +1,11 @@
+não é bom ter dependencias com vulnerabilidades
+
+sempre bom usar o comando npm audit para evidenciar e ver o relatório detalhado do que esta acontecendo com o pacote que contem vulnerabilidades
+
+para corrigir uma vulnerabilidade usamos o npm audit fix
+
+para alguns casos onde a dependencia pode ter uma mudança muito drastica de versão, o npm audit fix não ira funcionar
+
+e assim temos que usar o npm audit fix --force
+
+que ira forçar a alteração e remover a a vulnerabilidade

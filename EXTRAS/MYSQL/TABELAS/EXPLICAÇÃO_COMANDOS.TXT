@@ -1,0 +1,177 @@
+OQUE É UMA TABELA?
+
+É a entidade responsável por guardar nossos dados
+
+uma tabela possui colunas
+
+as colunas são como categorias dos nossos dados: nome, profissão, idade
+
+as colunas possuem tipos de dados determinados, como: textos, números, datas e etc
+
+e atributos: não nulo, chave primaria, auto incremento e etc
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+CRIANDO TABELAS
+
+O comando para criar tabela é:
+
+    CREATE TABLE <nome> (<coluna> <tipo_de_dado>)
+    ex: CREATE TABLE pessoas(nome VARCHAR(100));
+
+Podemos inserir diversas colunas e com diferentes tipos de dados
+
+O mais comum e que acaba sendo mais utilizado é o VARCHAR, que representa os textos/strings de uma tabela
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+REMOVENDO TABELAS
+
+Podemos também remover as tabelas que criamos
+
+Lembrando que todos os dados serão perdidos
+
+O comando é: DROP TABLE<nome>
+                ex: DROP TABLE pessoas;
+
+Após isso a tabela deixa de existir no banco!
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+TIPOS DE DADOS
+
+Os tipos de dados classificam um dado e os inserimos em uma coluna
+
+Podemos ter dados como: texto, número e outros
+
+É uma parte extremaente importante da criação do nosso projeto e banco de dados
+
+Alguns dados também permitem limites serem definidos, como quantidade máxima de caracteres
+
+São divididos em: texto, numérico, data e espacial;
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+PORQUE ESCOLHER O TIPO DE DADO?
+
+Devemos sempre escolher o tipo de dado mais próximo possivel da nossa necessidade, e tambem limitar tamanho quando for possivel
+
+Isso vai otimizar o banco, deixando ele com respostas mais rápidas
+
+Além de economizar espaço em disco, pois estamos salvando apenas o necessário
+
+Pense bem antes de realizar a criação das colunas, para escolher o tipo correto de limitá-lo
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+TIPOS DE TEXTO
+
+CHAR(X) - aceita textos com 0 a 255 caracteres
+
+VARCHAR(X) - aceita textos com 0 a 65535 caracteres
+
+Onde x é a quantidade máxima
+
+TINYTEXT - apenas texto com até 255 caracteres
+
+MEDIUMTEXT - apenas texto com até 16777215 caracteres
+
+Obs: CHAR e VARCHAR aceitam números e caracteres especiais
+
+exemplo criação tabela utilizando varios tipos de dados:
+    CREATE TABLE produtos (nome VARCHAR(50), sku CHAR(5), informacao MEDIUMTEXT);
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+INSERINDO DADOS
+
+Uma das operações mais comuns é inserir dados, utilizamos o comando:
+
+    INSERT INTO <tabela> (<colunas...>) VALUES (<valores...>)
+    ex: INSERT INTO produtos (NOME, sku, informacao) VALUES ("Playstation 5", "PS5XY", "videogame de ultima geração!");
+
+Precisamos inserir o nome das colunas e também os valores para cada uma, separados por virgula
+
+Os valores precisam corresponder a ordem das colunas
+
+Obs: valores de texto são inseridos entre aspas
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+TIPOS NUMERICOS
+
+Os tipos numéricos não precisam de aspas ao serem inseridos
+
+BIT(X) - 1 a 64 caracteres
+
+TINYINT(X) - 1 a 255 caracteres
+
+BOOL: 0 é falso e outros valres são verdadeiros
+
+INT(X) - valores entre -2147483648 a 2147483647
+
+ex: CREATE TABLE servidores(nome VARCHAR(50), espaco_disco INT(10), ligado BOOL);
+    INSERT INTO servidores(nome, espaco_disco, ligado) VALUES ("Servidor 1", "1234567891", 0);
+    INSERT INTO servidores(nome, espaco_disco, ligado) VALUES ("Servidor 2", "1234567891", 1);
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+TIPOS DE DATA
+
+As datas tambem inserimos entre aspas!
+
+DATE - aceita uma data formato YYYY-MM-DD
+
+DATETIME - aceita uma data com horario no formato YYYY-MM-DD hh:mm:ss
+
+TIMESTAMP - aceita uma data no formato de DATETIME, porem apenas entre os anos 1970 e 2038
+
+ex: CREATE TABLE aniversarios (nome VARCHAR(100), data_nascimento DATE);
+    INSERT INTO aniversarios(nome, data_nascimento) VALUES ("João Victor", "2000-12-01");
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ALTERANDO TABELAS
+
+Há tres tipos de alterações em SQL:
+
+    Adição de colunas
+
+    Remoção de colunas
+
+    Modificar tipo da coluna
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ADICIONANDO NOVA COLUNA NA TABELA
+
+para adicionar uma coluna vamos utilizar o comando:
+
+ALTER TABLE <tabela> ADD COLUMN <nome> <tipo>;
+ex: ALTER TABLE funcionarios ADD COLUMN profissao VARCHAR(100);
+
+desta maneira uma nova coluna é adicionada
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+REMOVENDO UMA COLUNA DA TABELA
+
+Para remover uma colunas usamos o comando
+
+ALTER TABLE <tabela> DROP COLUMN <nome>;
+ex: ALTER TABLE funcionarios DROP COLUMN profissao;
+
+Desta maneira uma coluna é removida
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+MODIFICANDO COLUNA
+
+para alterar um tipo de dados vamos utilizar
+
+ALTER TABLE <tabela> MODIFY COLUMN <coluna <tipo>;
+ex: ALTER TABLE funcionarios MODIFY COLUMN data_nascimento DATE;
+
+Agora a coluna vai estar com o novo tipo em vigor
+
+-----------------------------------------------------------------------------------------------------------------------------------

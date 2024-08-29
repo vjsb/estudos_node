@@ -1,0 +1,4 @@
+Um arquivo .mjs é um arquivo contendo um módulo do Echma Script(ES) nesse caso sendo uma coisa mais moderna, jeitos mais modernos de importação e exportação tambem
+A parte moderna diz que o .js é igual a um .cjs(CommomJS) e a diferença é que no package.json estara setado o type como module
+
+Usando o export e import para usar a função soma

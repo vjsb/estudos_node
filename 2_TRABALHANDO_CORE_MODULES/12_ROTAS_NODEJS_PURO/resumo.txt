@@ -1,0 +1,7 @@
+podemos criar um sistema de roteamento simples com Node.js e seus Core Modules
+
+as rotas são basicamente as páginas que acessamos nos sites
+
+vamos falar mais sobre esse recurso em outros módulos
+
+a ideia é identificar os arquivos acessados pela URL e retorna-los, se existirem

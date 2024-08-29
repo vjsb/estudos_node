@@ -1,0 +1,7 @@
+o módulo fs(File System) serve para trabalhar com arquivos e diretórios
+
+é tambem um core module
+
+podemos ler e escrever em arquivos
+
+uma utilização interessante: logs do sistema

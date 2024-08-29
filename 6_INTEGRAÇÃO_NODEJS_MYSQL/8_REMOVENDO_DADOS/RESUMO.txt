@@ -1,0 +1,5 @@
+Para remover um item vamos usar a Query DELETE
+
+Precisamos enviar para a rota um POST com o id do item a ser removido
+
+Este processo podemos fazer em uma unica etapa

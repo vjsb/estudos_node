@@ -1,0 +1,17 @@
+EDITANDO ITENS
+
+o primeiro passo da edição é resgatar os dados do item
+
+com isso podemos preencher o formulário, para depois fazer o UPDATE
+
+vamos utlizar o método findOne, igual na rota de vizualização
+
+e fazer o preenchimento do form na nossa nova view
+
+ATUALIZANDO O DADO NO BANCO
+
+para realizar a query de UPDATE vamos utilizar o método update do Sequelize
+
+nele passamos o objeto atualizado do item
+
+e também por meio do atributo where, que item vamos atualizar

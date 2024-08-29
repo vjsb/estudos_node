@@ -1,0 +1,9 @@
+vamos passar os dados por meio do método render
+
+enviamos um objeto com chaves e valores
+
+e isso nos possibilita acessar estes dados no template
+
+vamos utilizar a sintaxe de {{dado}}
+
+e o dado será impresso!

@@ -1,0 +1,5 @@
+para renomear um arquivo com o fs utilizamos o método rename
+
+precisamos passar o arquivo como parametro e tambem o novo nome
+
+neste método tambem podemos verificar algum eventual erro, pela callback, que pode ser ativada quando o arquivo alvo não existe

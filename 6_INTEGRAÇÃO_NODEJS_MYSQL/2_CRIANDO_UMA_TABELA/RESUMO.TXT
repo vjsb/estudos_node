@@ -1,0 +1,7 @@
+Para anipular os dados do sistema vamos precisar criar uma tabela
+
+Faremos isso via Workbench, criando uma tabela chamada books
+
+Onde vamos cadastrar os livros
+
+Estes livros vão precisar de duas informações: título e número de páginas

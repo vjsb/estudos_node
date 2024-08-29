@@ -1,0 +1,9 @@
+para instalar um pacote vamos utilizar o comando npm install <nome>
+
+onde <nome> sera substituido pleo nome do pacote
+
+quando fazemos desta maneira a instalação uma pasta node_modules é criada
+
+nela todos os arquivos de módulos de terceiro são armazenados
+
+sempre que rodarmos o comando npm install, a pasta node_modules é recriada com todos os módulos do package.json

@@ -1,0 +1,3 @@
+o comando npm init --yes
+
+serve para criar o projeto com o npm de forma rapida com o package.json default

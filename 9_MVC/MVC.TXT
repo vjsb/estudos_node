@@ -1,0 +1,51 @@
+O QUE É MVC ?
+
+Um acronimo de Model View Controler
+
+É um padrão de arquitetira de software, que pode deixar nossas aplicações mais organizadas
+
+a aplicção é dividida em camadas, cada uma com sua responsabilidade
+
+teremos uma nova estrutura de arquivos e pastas
+
+e a aplicação obedece um novo fluxo, que se repete para todas as aplicações
+
+aplicções em MVC tendem a ter uma manutenção/evolução mais facil
+
+----------------------------------------------------------------------------------------------------------------------------
+
+PAPEL CAMADA DO MODELO (MODEL)
+
+é uma camada onde vamos interagir com o banco de dados
+
+normalmente interage com os arquivos do Controller
+
+responsável por resgatar, atualizar, remover e criar dados
+
+é comum que cada tabela seja um Model, assim como fazemos com o setup do Sequelize
+
+os Models são quem controlam a arquitetura do sistema, é facil entender a regra de negócios analisando eles
+
+----------------------------------------------------------------------------------------------------------------------------
+
+PAPEL CAMADA DE VIZUALIZAÇÃO (VIEW)
+
+é onde apresentamos os dados que estão no banco
+
+geralmente a view interage com o Controller, que é o meio de campo
+
+e tambem nas views temos a interação com o usuário, como formularios para inserir dados no sistema
+
+é correto não haver lógica/regra de negócios na view, ou o mínimo possivel
+
+normalmente a exibição é feita através do HTML
+
+----------------------------------------------------------------------------------------------------------------------------
+
+PAPEL CAMADA DE CONTROLE (CONTROLLER)
+
+é onde temos a interação entre Model e View
+
+podemos definir qual view será impressa, processar dados que foram enviados para o banco ou para a view
+
+os controllers terão um código parecido com os das rotas, que estamos criando até então no curso

@@ -1,0 +1,9 @@
+middlewares são códigos que podem ser executados no meio/entre (middle) de alguma ação e outra
+
+por exemplo: verificar se o usuario está logado, podemos ter um para esta verificação
+
+o método que nos da acesso a utilizar middlewares é o USE no express
+
+o middleware pode ser acoplado em qualquer parte do projeto mas precisa do next() para o usuario continuar prosseguindo
+
+esse next() vem junto com a função anonma do middleware, no cabeçalho da função junto com o req, res

@@ -1,0 +1,13 @@
+REFAZER AS TABELAS
+
+podemos forçara recosntrução das TABELAS
+
+no método sync, one são sincronizados os models e as tabelas
+
+vamos colocar um atributo: force como true
+
+exemplo: sync ({ force: true })
+
+note que os dados são perdidos neste processo (NÃO É ALGO PARA SE TER EM PRODUÇÃO)
+
+é bom adicionar o force quando eu precisar adicionar tabelas novas com relacionamentos que ainda não existem

@@ -1,0 +1,11 @@
+podemos resgatar os parametros da URL por meio do req
+
+acessamos req.params.<nomeParametro>
+
+onde nome deve ser oque esta definido na URL do Express
+
+que fica desta forma: /users/:id
+
+nesse caso estariamos buscando o usuario no banco de dados peli id
+
+e o parametro vem pela URL

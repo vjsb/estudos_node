@@ -1,0 +1,14 @@
+o comando npm config serve para fazermos alguns ajustes nos modulos de criação do npm
+
+para mudar o author que ira iniciar os projetos, o comando é:
+npm config set init-author-name JoaoVictor
+
+para mudar o email que ira iniciar os projetos, o comando é:
+npm config set init-author-email joao.victorcoriolano@gmail.com
+
+para mudar a licença que ira iniciar os projetos, o comando é:
+npm config set init-author-license MIT
+
+
+site para ver as configs que podem ser alteradas no npm:
+https://docs.npmjs.com/cli/v10/using-npm/config

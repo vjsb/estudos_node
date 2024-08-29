@@ -1,0 +1,11 @@
+um pacote global não fica salvo na pasta node_modules do projeto
+
+ele fica salvo no computador do usuario
+
+a vantagem é que podemos acessa-lo em qualquer local via terminal
+
+utilizamos a flag -g em node install
+
+exemplo usado an aula: npm install -g lodash
+
+no caso do lodash ele precisa os arquivos linkados ao projeto, para linkar só usar o comando npm link lodash

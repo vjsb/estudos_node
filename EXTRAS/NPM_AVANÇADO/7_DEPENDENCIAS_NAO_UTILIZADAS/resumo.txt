@@ -1,0 +1,4 @@
+para limpar dependencias não utilizadas usa-se o comando
+npm prune
+
+com esse comando ele vai comparar as dependencias que estão no package.json e no node_modules, vai remover do node_modules as dependencias que não estão no package.json

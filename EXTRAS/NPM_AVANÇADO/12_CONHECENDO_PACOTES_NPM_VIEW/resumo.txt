@@ -1,0 +1,3 @@
+o comando npm view <nomeDependencia> vai dar uma ideia melhor sobre oque é o pacote e seus detalhes que estão la no site do npm registry
+
+por exemplo npm view react

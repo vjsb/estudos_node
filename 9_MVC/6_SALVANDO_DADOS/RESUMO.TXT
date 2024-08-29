@@ -1,0 +1,9 @@
+SALVANDO DADOS
+
+agora é a hora de interagir com o banco
+
+ou seja, criar um vinculo entre um Controller e um Model
+
+criaremos uma nova função para tratar os dados e enviaremos para o banco
+
+como o sequelize tem alguns métodos prontos, o trabalho do nosso Model fica mais simples

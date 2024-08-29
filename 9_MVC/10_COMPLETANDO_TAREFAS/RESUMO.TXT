@@ -1,0 +1,7 @@
+COMPLETANDO TAREFAS
+
+realizaremos uma ação do nosso sistema para completar ou "descompletar" as TAREFAS
+
+basicamente vamos criar uma rota de update que só atualiza o atributo done de Task
+
+precisamos de um form na lista para fazer o envio e tambem criar a rota

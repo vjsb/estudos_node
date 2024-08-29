@@ -1,0 +1,35 @@
+CRIANDO UMA API COM EXPRESS
+
+para criar a API teremos uma tarefa bem simples, comparada a estrutura com Handlebars
+
+basta instalar o Express, ele fará tudo sozinho neste pontos
+
+depois criaremos uma rota que responde em JSON, este é o dado de comunicação entre a aplicação e API
+
+é importante definir o verbo correto, como GET ou POST, por exemplo
+
+-----------------------------------------------------------------------------------------------------------------
+
+ADICIONANDO STATUS NA RESPOSTA
+
+os status podem ajudar no desenvolvimento da nossa aplicação
+
+exibindo mensagens de sucesso ou erro, por exemplo
+
+precisamos entres res e o método json definir um numero de status HTTP
+
+isso é feito por meio do método status
+
+sobre os status: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+-----------------------------------------------------------------------------------------------------------------
+
+A REALIDADE SOBRE AS APIS
+
+A API é desenvolvida de forma muito semelhante a quando criamos projetos com Handlebars, por exemplo
+
+temos algumas alterações leves, como: resposta apenas por JSON
+
+mas isso acaba até simplificando as coisas, separando as responsablidades
+
+ou seja, reaproveitamos todo o conhecimento visto durante o curso

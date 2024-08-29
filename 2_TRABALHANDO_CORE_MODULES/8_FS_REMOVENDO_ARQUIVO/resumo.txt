@@ -1,0 +1,5 @@
+para remover arquivos com fs utilizamos o método unlink
+
+precisamos passar o arquivo como parametro
+
+temos a possibilidade de checar se houve algum erro, a partir de callback retornada

@@ -1,0 +1,7 @@
+primeiramente vamos precisar instalar o driver, que é um pacote chamado mysql
+
+para instalar se usa o npm
+
+depois precisamos conectar ao nosso banco de Dados
+
+vamos inserir informações como: host, user, password e o banco

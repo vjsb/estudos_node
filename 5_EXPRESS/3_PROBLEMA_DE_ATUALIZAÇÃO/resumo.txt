@@ -1,0 +1,13 @@
+precisamos toda vez reinicar o servidor para receber atualizações, isso é muito custoso
+
+vamos instalar o módulo nodemon para resolver isso
+
+que a cada vez que o arquivo é salvo reinicia o projeto
+
+vamos salvar como dependencia de desenvolvimento (--save-dev)
+
+cria-se um start em scripts recebendo o index e o a porta a ser usada para ser mais pratico:
+
+    "start": "nodemon index.js localhost 3000"
+
+e para rodar só dar um npm start

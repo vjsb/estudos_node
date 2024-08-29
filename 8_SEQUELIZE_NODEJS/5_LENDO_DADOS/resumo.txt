@@ -1,0 +1,9 @@
+LENDO DADOS
+
+para ler os dados de uma tabela vamos utilizar o método fetchAll
+
+que tambem requer o model, no nosso caso o User
+
+Os dados vem em um objeto especial(handlebars não consegue ler), para transformar em um array de objetos temos que inserir um parametro
+
+que é o raw como true

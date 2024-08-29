@@ -1,0 +1,5 @@
+Com o módulo fs tambem podemos trabalhar com diretórios(pastas)
+
+O método exists pode evidenciar se um diretório existe ou não
+
+E o método mkdir pode criar um diretório

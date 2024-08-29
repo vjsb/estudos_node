@@ -1,0 +1,11 @@
+NODEJS 
+
+é um interpretador javascript que roda fora dos navegadores
+
+um programa que entende e executa código javascript só que no back-end(fora dos navegadores), ja que javascript puro é usado apenas na web(navegadores) junto com CSS e HTML
+
+com o nodejs pode se construir apicações Web back-end, aplicaçoes para Windows e Desktop, móveis e etc
+
+é muito leve, muito rapido, usa javascript e tem um dos maiores ecossistemas do mundo
+
+consegue receber muitas requisiçoes por segundo

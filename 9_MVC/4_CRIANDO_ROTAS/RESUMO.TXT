@@ -1,0 +1,11 @@
+CRIANDO AS ROTAS
+
+criaremos as rotas com ajuda do router
+
+onde cada arquivo será responsável por um controller
+
+e em cada rota vamos utilizar uma das funções do Controller
+
+por isso vamos importar o controller responsável pela lógica das rotas
+
+o router precisa ser importado no index da aplicação

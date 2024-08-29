@@ -1,0 +1,21 @@
+EDITANDO DADOS
+
+o primeiro passo da edição nós ja sabemos: resgatar dado e colocar no formulario em uma nova view
+
+para isso vamos precisar de uma função no Controller, pegando os dados via Model
+
+e então criar a rota que corresponde a um id de uma Task
+
+preenchendo os valores dos inputs com o que foi resgatado do banco
+
+-------------------------------------------------------------------------------------------------------------
+
+ENVIANDO DADOS PARA EDITAR
+
+agora no passo final, precisamos enviar os dados
+
+vamos criar uma nova função no Controller que processa o que veio do form
+
+esta mesma função chama o Model e executa a função de update
+
+retornando assim o usuario para onde ele possa ver a Task atualizada

@@ -1,0 +1,7 @@
+Para editar algum dado temos antes alguns preparos a realizar
+
+Primeiramente vamos resgatar o dado, como na aula anterior
+
+E normalmente preenchemos o formulario de dados com os dados que foram resgatados (SELECT)
+
+Isso faz com que o usuario lembre dos dados cadastrados e possa escolher oque editar

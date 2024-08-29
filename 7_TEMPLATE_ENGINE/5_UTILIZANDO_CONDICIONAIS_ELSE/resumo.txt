@@ -1,0 +1,7 @@
+o else é um complemento do if
+
+utilizamos no handlebars para a exibição de outra parte do layout, caso a condição seja falsa
+
+isso nos dá mais flexibilidade ainda
+
+a sintaze é: {{#if alguma coisa}} ... {{else}} ... {{#if}}

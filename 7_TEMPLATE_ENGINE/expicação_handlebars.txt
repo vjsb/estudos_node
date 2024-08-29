@@ -1,0 +1,11 @@
+o handlebars é uma das template engines mais utilizadas
+
+colocamos os dados dinâmicos no HTML entre {{}} para serem impressos
+
+podemos criar condicionais e tambem loops no template
+
+conhecido pela sua sintaxe limpa no front, nos força a não executar lógica no HTML
+
+o nome do pacote é express-handlebars
+
+app.engine('handlebars', exphbs.engine())

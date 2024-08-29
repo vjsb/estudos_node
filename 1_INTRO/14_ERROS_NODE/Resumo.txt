@@ -1,0 +1,5 @@
+Tem duas formas principais para gerar ou evidenciar erros em Node.js
+
+A primeira forma é o throw, sendo uma forma de encerrar um programa, gerando um novo erro
+
+A segunda forma é o try/catch, uma forma de evidenciar algo que deu errado em um bloco de código e exibir a mensagem de erro

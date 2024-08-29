@@ -1,0 +1,6 @@
+podemos usar o npm view como na ultima aula para descobrir as informações do pacote
+
+mas como ainda não sabemos como usar ele, o comando abaixo vai nos levar ao site da doc oficil do pacote
+
+exemplos:   npm docs jquery
+            npm docs react

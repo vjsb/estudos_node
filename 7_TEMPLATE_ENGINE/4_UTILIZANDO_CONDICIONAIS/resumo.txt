@@ -1,0 +1,9 @@
+utilizar uma estrutura condicional nos permite mais flexibilidade no layout
+
+podemos usar o if no handlebars
+
+a sintaxe é {{#if algumacoisa}} ... {{/if}}
+
+só imprime o que está entre as condicionais, se o resultado dela for verdadeiro
+
+precisamos encaminhar o dado a ser validado pelo backend

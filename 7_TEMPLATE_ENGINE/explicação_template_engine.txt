@@ -1,0 +1,11 @@
+template engine = motor de templates/HTML
+
+uma forma de deixar o HTML dinânico, inserindo variaveis do back-end no front-end
+
+podemos tambem criar layouts, que são reaproveitados
+
+é essencial para projetos que usam banco de dados, que não são estaticos
+
+temos diversos disponiveis: EJS, Pug e Handlebars, por exemplo
+
+todos atingem o mesmo objetivo, porém há algumas diferenças de setup e funcionalidades

@@ -1,0 +1,9 @@
+RESGATANDO DADOS
+
+para resgatar dados o processo é semelhante 
+
+vamos criar uma rota get que acessar uma função do Controller
+
+nesta função os dados através do Model
+
+e assim podemos imprimir no HTML

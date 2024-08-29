@@ -1,0 +1,7 @@
+o comando npm outdated faz uma varredura nas dependencias do projeto e mostra uma tabela
+com a versão atual e se ela tem versões novas, para assim ser atualizada
+
+e com o npm update atualizamos a versão da ou das dependencias
+
+se rodarmos o npm outdated depois de atualizar as dependencias com npm update, vera que não tem retorno
+isso quer dizer que todas dependencias estão atualizadas

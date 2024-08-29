@@ -1,0 +1,9 @@
+esse comando de limpar o cache só deve ser utilizado por motivos de liberar espaço
+mas tambem podemos usar para apagar alguma dependencia que esta guardando algum tipo de versão antiga
+ou que não possui mais no registry do npm e esta afetando as outras dependencias de alguma forma
+
+npm cache verify
+vai varrer nosso sistema e apresentar o tamanho do cache que temos no sistema e o caminho de onde fica o cache
+
+npm chache clean --force
+comando para ter certeza que o cache sera limpo

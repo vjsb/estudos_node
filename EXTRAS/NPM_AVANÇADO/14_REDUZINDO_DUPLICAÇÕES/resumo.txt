@@ -1,0 +1,7 @@
+ajuda a reduzir o tamanho do proejto e o carregamento de bibliotecas que são compartilhadas com mais de um pacote que ka existe em outra biblioteca
+
+em algum caso de bibliotecas que possuem uma ou mais dependencias iguais em sua composiçaõ podemos usar esse comando para não haver duplicação de dependencias/pacotes
+
+o comando npm dedupe 
+
+ajuda a não ter duplicação nas dependencias dentro dos pacotes, assim se tiver 3 ira se transformar em apenas uma, não quebrando os pacotes e funcionando legal sem duplicação

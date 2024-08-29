@@ -1,0 +1,5 @@
+podemos trabalhar com estes módulos juntos e ter um resultado interessante
+
+com o http criamos nosso server e alteramos a resposta baseado na URL acessada
+
+com url processamos os parametros que vem pela query string, para alterar a lógica do http

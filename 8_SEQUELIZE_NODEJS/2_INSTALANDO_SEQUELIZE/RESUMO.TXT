@@ -1,0 +1,9 @@
+Para instalar o Sequelize utilizamos o pacote sequelize
+
+é obrigatório tambem utilizar o pacote mysql2 para o sequelize funcionar
+
+e para conectar precisamos passar os mesmos dados que no outro pacote: banco, usuário e senha
+
+Instanciando a classe Sequelize
+
+é possivel checar a conexão com o método authenticate

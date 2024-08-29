@@ -1,0 +1,5 @@
+verificar versão do npm: npm -v
+
+verificar versão node: node -v
+
+sempre ver qual versão tem no pc e a ultima lançada, para ver se não existe atraso

@@ -1,0 +1,6 @@
+o comando npm run 
+
+lista para gente os scripts que existem no package.json
+
+facilita para saber quais scripts podemos rodar no projeto
+

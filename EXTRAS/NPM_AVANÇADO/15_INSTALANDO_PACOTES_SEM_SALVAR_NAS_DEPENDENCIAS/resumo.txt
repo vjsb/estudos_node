@@ -1,0 +1,5 @@
+da para instalar dependencias sem inclui-las no nosso package.json, seja para não poluir ou esquecer que a esta usando e etc
+
+exemplo de comando que faz isso: npm install axio --no-save
+
+ao usar esse comando, ele não ira coloca-lo no package.json, mas se procurar na pasta node_modules o axios estara la

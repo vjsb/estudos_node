@@ -1,0 +1,3 @@
+podemos criar e escrever em arquivos tambem, utilizando o método writeFile
+
+esta escrita pode estar associada a um conjunto de operações como o envio de informações de um usuario

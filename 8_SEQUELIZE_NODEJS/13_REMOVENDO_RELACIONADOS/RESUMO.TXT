@@ -1,0 +1,7 @@
+REMOVENDO RELACIONADOS
+
+para remover itens relacionados utilizaremos o mesmo processo de remoção de itens
+
+criaremos um forulário que envia o id do item
+
+e uma rota para receber estas informações e executar a remoção, utilizando o método destroy

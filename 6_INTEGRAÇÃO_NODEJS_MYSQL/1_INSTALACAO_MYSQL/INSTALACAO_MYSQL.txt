@@ -1,0 +1,13 @@
+vou instalar nesse caso o XAMPP
+
+este software nos dá o PHP, MYSQL e tambem o Apache
+
+com ele podemos facilmente utilizar o banco de Dados
+
+depois instalarei um software para trabalhar com MYSQL, o software é o workbench
+
+para usar o mysql no terminal precisa-se adicionar o executavel do mysql as variaveis de ambiente
+
+para conectar no mysql vamos digitar: mysql -u root
+a flag -u siginifica usuario e o root seria qual usuario nosso esta acessando o mysql
+então esse comando significa que estou conectando no mysql com o meu usuario root

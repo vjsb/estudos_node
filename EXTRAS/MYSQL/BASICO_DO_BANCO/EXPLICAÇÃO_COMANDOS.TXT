@@ -1,0 +1,47 @@
+Agora vamos nos aprofundar em criação de bancos e tabelas
+
+O primeiro passo é sempre criar o bancos
+
+Utiizamos o comando: CREATE DATABASE <nome>
+                        ex: CREATE DATABASE empresa;
+
+Desta forma teremos uma entidade disponivel para criação de tabelas e posteriormente inserção de dados
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Para qualquer ação que envolva um determinado banco, precisamos utilizar ele
+
+O comando é: USE <nome>
+                ex: USE empresa;
+
+Agora os comandos serão direcionados a este banco.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Para garantir que um banco foi criado podemos utilizar um comando UTILITARIO;
+
+Que é o: SHOW DATABASES;
+
+Todos os bancos que possuimos no nosso SGBD serão exibidos
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Podemos também exportar nosso banco, utilizamos o comando:
+
+    mysqldump -u root <nome_banco> > <nome_arquivo>.sql
+    ex: mysqldump -u root empresa > empresa2.sql
+
+desta forma todas as tabelas e dados ficarão salvas em um arquivo .sql
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Para deletar um banco de dados podemos utilizar o seguinte comando: 
+    
+    DROP DATABASE <nome>
+    ex: DROP DATABASE empresa;
+
+Note que esta ação frequentemente é chamada de DROPAR
+
+Após esta ação tabelas e dados são perdidos
+
+---------------------------------------------------------------------------------------------------------------------------------

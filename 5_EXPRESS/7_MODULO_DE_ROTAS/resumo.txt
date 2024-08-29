@@ -1,0 +1,9 @@
+podemos unir varias rotas em um módulo, isso vai deixar nosso código mais organizado
+
+normalmente criamos uma pasta ou arquivo que contem estas rotas
+
+que representam uma entidade em comum, como users
+
+vamos utilizar um novo objeto chamado Router, e colocar as rotas nele
+
+depois precisamos exporta-lo e importar no arquivo principal

@@ -1,0 +1,11 @@
+há uma possibilidade de instalar pacotes apenas para o ambiente de desenvolvimento
+
+utilizamos a flag --save-dev
+
+exemplo utilizado na aula: npm install --save-dev chalk
+
+isso faz com que ele seja separado no package.json dos demais
+
+e então na build de produção não instalaremos esses módulos
+
+um exemplo: servidor para ambiente local, como o nodemon

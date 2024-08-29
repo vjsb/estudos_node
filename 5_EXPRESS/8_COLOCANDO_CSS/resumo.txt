@@ -1,0 +1,9 @@
+para inserir CSS nas páginas e arquivos estáticos vamos precisar de um middleware
+
+que é o express.static
+
+precisamos colocar um diretório base, que normalmente é o public
+
+e criar os estáticos a partir desta pasta
+
+no HTML podemos acessar  caminho relativo após a pasta definida

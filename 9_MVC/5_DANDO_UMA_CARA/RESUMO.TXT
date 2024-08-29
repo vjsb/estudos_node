@@ -1,0 +1,7 @@
+DANDO UMA CARA AO PROJETO
+
+Vamos aproveitar este inicio de estrutura e criar um projeto completo em MVC
+
+Primeiramente vamos dar alguns estilos iniciais
+
+e epois voltamos as outras partes da aplcação para avançar no nosso projeto final

@@ -1,0 +1,14 @@
+OQUE É HTTP?
+
+o http é um protocolo de transferencia de dados na web, voce só consegue se comunicar com um site e o site com voce se houver esse protocolo 
+que esta compartilhando informações entre os dois, requisição e resposta
+
+HTTP é a base para qualquer desenvolvimento web hoje em dia
+
+Podemos criar um servidor HTTP com este módulo
+
+Ou seja, receber uma requisição e enviar código HTML como resposta
+
+Vamos utilizar métodos como createServer, para criação do servidor
+
+E tambem uma listen, para determinar a porta

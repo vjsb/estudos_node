@@ -1,0 +1,5 @@
+para remover um pacote utilizamos o comando: npm uninstall <nome>
+
+substituindo <nome> pelo nomo do pacote
+
+isso afz com que o pacote seja removido do package.json tambem

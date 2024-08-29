@@ -1,0 +1,4 @@
+Forma Sincrona: Quando o código espera ser toalmente executado para prosseguir, se tiver tres linhas de código ele ira executar uma de cada vez em seguida
+
+Forma Assincrona: O código continua prosseguindo e em um ponto futuro obtem a resposta de execução assincrona
+um exemplo é se tiver a execução da segunda linha mas isso não impedindo a execução da terceira linha, que em um ponto futuro vai devolver a resposta

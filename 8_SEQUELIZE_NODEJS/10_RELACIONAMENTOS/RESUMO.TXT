@@ -1,0 +1,11 @@
+RELACIONAMENTOS
+
+em bancos relacionais podemos criar relacionamentos entre as tabelas
+
+para concretizar isso no Sequelize vamos precisar de dois Models, ou seja, podemos criar mais um no nosso projeto
+
+depois precisamos inserir um método de relacionamento em algum dos models que vai criar a relação
+
+após o sync uma coluna que faz a relação entre as tabelas será criada
+
+que representa a FOREIGN KEY

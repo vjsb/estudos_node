@@ -1,0 +1,96 @@
+O QUE É CRUD?
+
+CRUD são as ações que mais são utilizadas em todas as aplicações
+
+Create - criar / inserir dados (INSERT)
+
+Read - ler dados (SELECT)
+
+Update - atualizar dados (UPDATE)
+
+Delete - deletar / remover dados (DELETE)
+
+Toda aplicação web com banco de dados tem pelo menos uma destas operações e possivelmente todas.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+SELECIONAR TODOS OS DADOS
+
+Para selecionar todos os dados de uma tabela utilizamos
+
+    SELECT * FROM <tabela>;
+
+Desta maneira receberemos todas as colunas da tabela e também todos os registros
+
+Conforme a base vai crescendo, essa consulta pode se tornar muito custosa e também lenta. (IMPORTANTE)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+SELECIONAR COLUNAS ESPECIFICAS
+
+para selecionar colunas especificas trocamos o * por o nome das colunas, assim:
+
+    SELECT coluna1, coluna2 FROM <tabela>;
+
+Desta maneira criamos um filtro, deixando nossa consulta um pouco mais leve, pode ser usada para otimização de consulta
+
+ao longo do curso aprenderemos outras técnicas de ottimzação de consulta
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERINDO DADOS
+
+Uma das operações mais comuns é inserir dados, utilizamos o comando:
+
+    INSERT INTO <tabela> (<colunas...>) VALUES (<valores...>)
+    ex: INSERT INTO produtos (NOME, sku, informacao) VALUES ("Playstation 5", "PS5XY", "videogame de ultima geração!");
+
+Precisamos inserir o nome das colunas e também os valores para cada uma, separados por virgula
+
+Os valores precisam corresponder a ordem das colunas
+
+Obs: valores de texto são inseridos entre aspas
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+A IMPORTANCIA DO WHERE
+
+O WHERE é uma clausula de algumas queries, que determina quais registros vamos atualizar
+
+Por exemplo: WHERE id = 1;
+ex: SELECT pessoas WHERE nome = "João Victor"
+
+Se não inserirmos esta instruções em atualizações ou remoções, vamos aplicar a todos os dados, oque pode ser um enorme problema;
+
+Então lembre-se sempre de inserir WHERE e UPDATE e DELETE
+
+Depois veremos sua aplicação com SELECT
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+ATUALIZANDO DADOS
+
+para atualizar dados vamos utilizar a instrução UPDATE
+
+Lembre-se de utilizar o WHERE
+
+UPDATE tabela SET <coluna=valor> WHERE <condição>
+ex: UPDATE pessoas SET limite = 10000 WHERE nome = "João Victor";
+
+Podemos inserir mais colunas, separando elas por virgula
+ex: UPDATE pessoas SET limite = 10000, cpf = "123" WHERE nome = "João Victor";
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+DELETANDO DADOS
+
+Para delear dados vamos utilizar a instrução DELETE
+
+DELETE FROM <tabela> WHERE <condição>
+ex: DELETE FROM pessoas WHERE nome = "João Victor";
+
+Lembre-se de utilizar o WHERE, se não deletaremos todos os dados
+
+A quantidade de dados removidos depende do WHERE
+
+--------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+INSTALAR DEPENDENCIAS GLOBAIS
+para instalar dependencias globais tem que se colocar a flag -g
+
+muitas vezes usado para dependenciasde teste ou algo do tipo, dependencias essenciais do projeto devem estar no package.json e não podem ser globais
+
+exemplo usado no projeto foi a lib request:
+npm install request -g
+
+e para ser usado precisa ser linkado o projeto com a dependencia, exemplo: npm link request
+
+quando se instala global ele pode ser usado em qualquer projeto, portanto não aparece na aba depdendencias do do package.json porque não é apenas desse projeto
+
+
+
+REMOVER DEPENDENCIAS GLOBAIS
+para remover um modulo global o comando é
+npm remove <nomeDependencia> -g
+
+
+
+LISTANDO MODULOS INSTALADOS
+para verificar as dependencias que existem no projeto(esse comando vai trazer a dependencia principal e as que tem dentro dela)
+npm list
+
+verificar só as dependencias principais (esse comando vai só listar as dependencias principais, sem aquelas que tem um monte dentro, por exemplo o express)
+npm list --depth=0
+
+para verificar as dependencias instaladas de forma global(principais)
+npm list -g --depth=0
+
+para verificar as dependencias instaladas de forma global(principais e as que vem com a principal)
+npm list -g

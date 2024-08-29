@@ -1,0 +1,3 @@
+Com o módulo os podemos extrair informaçãoes do sistema operacional
+
+este tambem é um Core module

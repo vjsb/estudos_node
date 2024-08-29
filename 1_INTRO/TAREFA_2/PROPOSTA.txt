@@ -1,0 +1,6 @@
+Crie um Projeto que aceite pacotes externos
+Instale o inquirer e o chalk
+Utilize o inquirer para receber o nome e a idade do usuario
+Apresente esta resposta com a cor de fundo amarela e texto preto
+Utilizar bgYellow e black
+Insira um tratamento para um possivel erro do inquirer com o catch

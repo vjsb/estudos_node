@@ -1,0 +1,11 @@
+nessa aula vamos precisar instalar o Express e o handlebars para o funcionamento correto
+
+podemos tambem utilizar o nodemon, para nos ajudar
+
+no index precisamos importar os pacotes instalados
+
+e também adicionar ao Express a engine do handlebars
+
+criaremos uma view no diretório views, com a extenção handlebars
+
+utilizamos o método render para enviar esta view para a requisição

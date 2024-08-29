@@ -1,0 +1,9 @@
+RESGATANDO DADOS RELACIONADOS
+
+precisamos definir as relações entre os dois Models, podemos fazer isso no Model de endereços
+
+depois basta utilizar o operador include com o nome do Model, onde estamos resgatando o dado
+
+isso faz com que os registros associados também venham na seleção
+
+como há dados relacionados, precisamos remover o raw porque se não ele vai juntar tudo em um array só e vai nos atrapalhar

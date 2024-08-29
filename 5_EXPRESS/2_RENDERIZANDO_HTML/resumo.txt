@@ -1,0 +1,5 @@
+para enviar HTML como resposta utilizamos o método sendFile
+
+isso faz com que o arquivo seja renderizado no navegador
+
+precisamos acessar o arquivo por meio do diretório base, isso requer o módulo path

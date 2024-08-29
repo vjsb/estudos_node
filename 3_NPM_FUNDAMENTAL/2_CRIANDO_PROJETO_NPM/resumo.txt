@@ -1,0 +1,9 @@
+para iniciar um projeto, podemos utilizar o comando npm init
+
+seremos questionados para configurar algumas opções iniciais
+
+como no nome do projeto
+
+e então um package.json condensando as informações é criado
+
+isto caracteriza o inicio do projeto com npm e node

@@ -1,0 +1,7 @@
+A inclusão de CSS no Handlebars é muito semelhante a que realizamos apenas com Express
+
+Precisamos definir a pasta dos arquivos estáticos
+
+E vamos linkar o CSS com o nosso layout em comum para todas as páginas
+
+Isso torna possível a estilização dos nossos projetos

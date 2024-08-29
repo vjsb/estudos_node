@@ -1,0 +1,17 @@
+rotas é um conceito super importante e presente em aplicações web
+
+basicamente são as URLs que acessamos
+
+se criamos uma rota /produtos, podemos acessar através da URLs www.nossosite.com/produtos
+
+quando o usuario acessa podemos acessar varias lógicas, como carregar produtos do banco de dados
+
+ou seja, rotas são uma ponte entre o usuario e a lógica da aplicação
+
+
+o setup inicial do Express é simples, mas precisa seguir esses passos:
+
+    importar o express e invoca-lo
+    definir uma porta base para a aplicação
+    criar uma rota(URL que sera acessada)
+    executar o método listen na porta especificada

@@ -1,0 +1,13 @@
+é possivel criar rotinas com o npm tambem
+
+ou seja, executamos uma série de comandos com apenas um
+
+utilizamos npm run<script>
+
+onde <script> é o nome da sequencia de comandos que configuramos
+
+nessse projeto criamos o "start": "node index.js", que vai rodar o projeto de um jeito mais simples
+
+apenas a palavra start roda o npm sem o run, ficando npm start
+
+todas as outras precisa do run antes

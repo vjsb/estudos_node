@@ -1,0 +1,5 @@
+para ver quais são as configs salvas do npm usamos o comando
+
+npm get
+
+esse comando vai mostrar o author, license, email, url, qualquer coisa que foi pré configurada e salva

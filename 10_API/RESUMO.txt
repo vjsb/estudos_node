@@ -1,0 +1,60 @@
+OQUE É API ?
+
+API é um acronimo para Interface de Programação de Aplicações (Application Programming Interface)
+
+uma forma simples de comunicação entre as Aplicações
+
+não necessita de telas, respostas geralmente são em JSON
+
+independente do front-end, a API não possui ligação com o front
+
+baseadas em requisição e respostas
+
+podemos criar uma API com express
+
+-----------------------------------------------------------------------------------------------------------------------
+
+OQUE É REST E RESTful ?
+
+REST significa Representational State Transfer ou Transferencia Representacional de Estado
+
+um estilo de arquitetura, que define como as APIs devem ser criadas
+
+seguindo todos os padrões a API é considerada RESTful
+
+alguns dos pontos são: repostas uniformes, sem ligação de estado, cache de respostas e outros
+
+principios da arquitetura REST
+https://www.ibm.com/topics/rest-apis
+
+-----------------------------------------------------------------------------------------------------------------------
+
+OQUE É SPA ?
+
+SPA siginifica Single Page Application
+
+é quando a aplicação possui um front-end separado do back-end
+
+ou seja é uma API para o back-end
+
+e um framework front-end JS, como: React, Vue e Angular
+
+aplicações deste tipo estão dominando o mercado
+
+e as sessões seguintes tem como objetivo trabalhar focadas em SPA
+
+a arquitetura anteriormente utilizada é conhecida como Monolith
+
+-----------------------------------------------------------------------------------------------------------------------
+
+OS VERBOS HTTP
+
+os verbos HTTP andam de mãos dadas com as APIs, e fazem parte do REST
+
+temos métodos como: GET, POST, PUT, DELETE, PATCH e etc
+
+cada um representa uma ação na API, ou seja, são essenciais
+
+é muito importante que as nossas funcionalidades usem os métodos corretos
+
+enviamos o método através da requisição

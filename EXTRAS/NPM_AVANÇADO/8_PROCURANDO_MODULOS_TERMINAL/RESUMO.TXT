@@ -1,0 +1,5 @@
+para se procurar pacotes do npm sem ter que acessar o site podemos usar o comando
+
+npm search <nodeModulo> (npm serach test por exemplo)
+
+usando esse comando no terminal ele ira listar as dependencias que existem ligadas a dependencia que pesquisamos

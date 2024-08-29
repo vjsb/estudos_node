@@ -1,0 +1,9 @@
+CRIANDO O CONTROLLER
+
+vamos agora criar nosso Controller, que ficará dentro da pasta controllers
+
+será uma clase que contem as funções com a logica de cada rota
+
+algumas só encaminharão as views, outras vão processar dados e passar para as Models
+
+por isso vamos importar o Model que o controller utiliza

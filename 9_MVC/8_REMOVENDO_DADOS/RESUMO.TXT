@@ -1,0 +1,9 @@
+REMOVENDO DADO
+
+para remover um dado vamos utilizar o método destroy do Sequelize
+
+condicionado por um POST que vai até a rota determinada pelo router
+
+ativando uma função Controller
+
+e depois direcionamos para a home novamente
